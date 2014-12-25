@@ -1,0 +1,90 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Padding below the footer and lighter body text */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+    padding-bottom: 20px;
+    color: #FAFAFA;
+    background-color: #673ab7;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+.footer {
+  height: 100px;
+  background-color: #512da8;
+}
+.btn {
+    background-color: #7c4dff;
+    border-color: #7c4dff;
+}
+.btn:hover {
+    background-color: #7c4dff;
+    border-color: #673ab7;
+}
+.text-bold {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+.jumbotron {
+    background-color: #512da8;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 50px;
+   }
+}
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+   }
+}
