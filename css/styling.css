@@ -28,6 +28,11 @@ p, h1, h2, h3, h4, h5, h6 {
     border-color: #673ab7;
     border-radius: 0px;
 }
+.btn:focus {
+    background-color: #7c4dff;
+    border-color: #673ab7;
+    border-radius: 0px; 
+}
 .blue {
   background-color: #2196F3;
 }
