@@ -46,7 +46,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #607D8B;
 }
 .indigo {
-  background-color: #3F51B5;
+  background-color: #673ab7;
 }
 .teal {
   background-color: #009688;
@@ -103,6 +103,16 @@ p, h1, h2, h3, h4, h5, h6 {
 .footertext a{
   color: #FFFFFF;
   text-decoration: underline;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+a:hover {
+  color: #FFFFFF;
+}
+a:focus {
+  color: #FFFFFF;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
