@@ -79,6 +79,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Center align the text within the three columns below the carousel */
 
+.featurette-image-large {
+  border-radius: 5px;
+}
+
 .marketing .col-lg-4 {
     margin-bottom: 20px;
     text-align: center;
